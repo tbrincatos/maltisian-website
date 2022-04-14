@@ -24,6 +24,9 @@ h2 {
   font-family: "Jaldi", sans-serif;
 }
 
+footer a:hover {
+  text-decoration: none;
+}
 .background-enveloppe {
   background-image: url("/img/background.JPG");
   background-repeat: no-repeat;
