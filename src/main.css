@@ -12,6 +12,10 @@ h1,
 h2 {
   text-align: center;
 }
+h2,
+.temp-menu {
+  font-family: "Jaldi", sans-serif;
+}
 h1 {
   color: var(--primary-color);
   padding: 100px 0 20px;
@@ -21,7 +25,8 @@ h1 {
 
 h2 {
   color: var(--tertiary-color);
-  font-family: "Jaldi", sans-serif;
+
+  margin-bottom: 15px;
 }
 
 footer a:hover {
@@ -34,6 +39,9 @@ footer a:hover {
   background-position: left;
   height: 100%;
 }
+.temp-menu {
+  padding-top: 20px;
+}
 
 .social-links {
   display: flex;
@@ -43,6 +51,7 @@ footer a:hover {
   position: absolute;
   bottom: 10px;
 }
+
 @media (max-width: 600px) {
   h1 {
     font-size: 55px;
@@ -64,7 +73,8 @@ footer a:hover {
   h1 {
     font-size: 110px;
   }
-  h2 {
+  h2,
+  .temp-menu {
     font-size: 2rem;
   }
 }
