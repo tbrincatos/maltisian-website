@@ -8,14 +8,6 @@ html {
   height: 100%;
 }
 
-.background-enveloppe {
-  background-image: url("/img/background.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  height: 100%;
-}
-
 h1,
 h2 {
   text-align: center;
@@ -32,6 +24,22 @@ h2 {
   font-family: "Jaldi", sans-serif;
 }
 
+.background-enveloppe {
+  background-image: url("/img/background.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 100%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+.social-content {
+  position: absolute;
+  bottom: 10px;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 55px;
