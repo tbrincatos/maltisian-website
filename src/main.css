@@ -8,11 +8,11 @@ html {
   height: 100%;
 }
 
-.content {
+.background-enveloppe {
   background-image: url("/img/background.JPG");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   height: 100%;
 }
 
