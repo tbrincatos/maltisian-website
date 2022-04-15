@@ -23,7 +23,7 @@ footer a:hover {
 }
 .about-image {
   border: 2px solid var(--accent-color);
-  border-radius: 60px;
+  border-radius: 50px;
   display: block;
   margin: 0 auto;
 }
