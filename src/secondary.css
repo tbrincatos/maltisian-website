@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #fefefc;
+  --secondary-color: #5a6275;
+  --tertiary-color: #527e90;
+}
+.fa-ellipsis {
+  color: var(--primary-color);
+}
+.heading {
+  background-image: url("/img/background.JPG");
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  color: var(--primary-color);
+  padding: 30px 0 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 55px;
+  }
+}
+@media (min-width: 601px) {
+  .title {
+    font-size: 80px;
+  }
+}
