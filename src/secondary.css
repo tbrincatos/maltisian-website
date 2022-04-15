@@ -17,7 +17,7 @@ footer a:hover {
   color: var(--primary-color);
 }
 .heading {
-  background-image: url("/img/background.JPG");
+  background-image: url("/img/header.JPG");
   background-size: cover;
   background-position: center;
 }
@@ -38,6 +38,9 @@ footer a:hover {
 .nav-link:visited {
   color: var(--primary-color);
 }
+.active {
+  font-weight: bold;
+}
 .about-image {
   display: block;
   margin: 0 auto;
@@ -47,6 +50,12 @@ footer a:hover {
 .social-links {
   display: flex;
   justify-content: center;
+  padding: 40px;
+}
+.footer-image {
+  background-image: url("/img/footer.jpg");
+  background-size: cover;
+  background-position: center;
 }
 @media (max-width: 600px) {
   .title {
@@ -56,5 +65,8 @@ footer a:hover {
 @media (min-width: 601px) {
   .title {
     font-size: 80px;
+  }
+  .footer-image {
+    background-position: top;
   }
 }
