@@ -3,6 +3,16 @@
   --secondary-color: #5a6275;
   --tertiary-color: #527e90;
 }
+h1,
+p {
+  color: var(--secondary-color);
+}
+p {
+  text-align: justify;
+}
+footer a:hover {
+  text-decoration: none;
+}
 .fa-ellipsis {
   color: var(--primary-color);
 }
@@ -18,7 +28,26 @@
   font-weight: 900;
   text-align: center;
 }
-
+.button-align {
+  display: block;
+  margin: 0 auto;
+}
+.nav-alignment {
+  margin: 0 auto;
+}
+.nav-link:visited {
+  color: var(--primary-color);
+}
+.about-image {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+  height: auto;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 600px) {
   .title {
     font-size: 55px;
