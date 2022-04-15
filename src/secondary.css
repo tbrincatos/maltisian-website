@@ -2,24 +2,71 @@
   --primary-color: #fefefc;
   --secondary-color: #5a6275;
   --tertiary-color: #527e90;
+  --background-color: #5a627514;
+  --accent-color: #3cbdd3;
 }
+
 h1,
-p {
+main p {
   color: var(--secondary-color);
 }
-p {
+main p {
+  line-height: 2;
   text-align: justify;
 }
 footer a:hover {
   text-decoration: none;
 }
+
+.active {
+  font-weight: bold;
+}
+.about-image {
+  border: 2px solid var(--accent-color);
+  border-radius: 60px;
+  display: block;
+  float: inherit;
+  height: auto;
+  margin: 0 auto;
+}
+.background {
+  background-color: var(--background-color);
+  border-radius: 50px;
+}
+.button-align {
+  display: block;
+  margin: 0 auto;
+}
 .fa-ellipsis {
   color: var(--primary-color);
 }
+
+.footer-image {
+  background-image: url("/img/footer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.greeting {
+  font-size: 40px;
+  padding: 0 0 15px;
+  text-align: center;
+}
 .heading {
   background-image: url("/img/header.JPG");
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+}
+.nav-alignment {
+  margin: 0 auto;
+}
+.nav-link:visited {
+  color: var(--primary-color);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
 }
 .title {
   color: var(--primary-color);
@@ -28,45 +75,27 @@ footer a:hover {
   font-weight: 900;
   text-align: center;
 }
-.button-align {
-  display: block;
-  margin: 0 auto;
-}
-.nav-alignment {
-  margin: 0 auto;
-}
-.nav-link:visited {
-  color: var(--primary-color);
-}
-.active {
-  font-weight: bold;
-}
-.about-image {
-  display: block;
-  margin: 0 auto;
-  border-radius: 100px;
-  height: auto;
-}
-.social-links {
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-}
-.footer-image {
-  background-image: url("/img/footer.jpg");
-  background-size: cover;
-  background-position: center;
-}
+
 @media (max-width: 600px) {
   .title {
     font-size: 55px;
   }
 }
 @media (min-width: 601px) {
-  .title {
-    font-size: 80px;
+  main p {
+    font-size: larger;
+  }
+  .about-closing-p {
+    text-align: center;
   }
   .footer-image {
     background-position: top;
+  }
+  .greeting {
+    font-size: 60px;
+  }
+
+  .title {
+    font-size: 80px;
   }
 }
