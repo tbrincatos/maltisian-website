@@ -6,7 +6,6 @@
   --accent-color: #3cbdd3;
 }
 
-h1,
 main p {
   color: var(--secondary-color);
 }
@@ -31,6 +30,7 @@ footer a:hover {
   background-color: var(--background-color);
   border-radius: 50px;
 }
+
 .button-align {
   display: block;
   margin: 0 auto;
@@ -45,10 +45,16 @@ footer a:hover {
   background-size: cover;
 }
 .greeting {
+  color: #5a6275d9;
   font-size: 40px;
   padding: 0 0 15px;
   text-align: center;
 }
+.greeting-style {
+  border: 2px solid var(--accent-color);
+  border-radius: 50px;
+}
+
 .heading {
   background-image: url("/img/header.JPG");
   background-position: center;
