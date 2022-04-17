@@ -46,8 +46,10 @@ footer a:hover {
 }
 .greeting {
   color: #5a6275d9;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
   font-size: 40px;
-  padding: 0 0 15px;
+  padding: 8px;
   text-align: center;
 }
 .greeting-style {
