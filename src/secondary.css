@@ -4,6 +4,7 @@
   --tertiary-color: #527e90;
   --background-color: #5a627514;
   --accent-color: #3cbdd3;
+  --muted-accent-color: #3cbdd333;
 }
 
 main p {
@@ -21,14 +22,15 @@ footer a:hover {
   font-weight: bold;
 }
 .about-image {
-  border: 2px solid var(--accent-color);
-  border-radius: 50px;
+  border: 2px solid var(--muted-accent-color);
+  border-radius: 15px;
   display: block;
   margin: 0 auto;
+  padding: 10px;
 }
 .background {
   background-color: var(--background-color);
-  border-radius: 50px;
+  border-radius: 15px;
 }
 
 .button-align {
@@ -44,16 +46,17 @@ footer a:hover {
   background-position: center;
   background-size: cover;
 }
+
 .greeting {
-  color: #5a6275d9;
+  color: #3cbdd39e;
   font-family: "Nunito", sans serif;
   font-size: 40px;
   padding: 8px;
   text-align: center;
 }
 .greeting-style {
-  border: 2px solid var(--accent-color);
-  border-radius: 35px;
+  border: 2px solid var(--muted-accent-color);
+  border-radius: 25px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
@@ -106,7 +109,7 @@ footer a:hover {
     background-position: top;
   }
   .greeting {
-    font-size: 60px;
+    font-size: 55px;
   }
   .nav-alignment {
     font-size: larger;
