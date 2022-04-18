@@ -5,8 +5,8 @@ html {
 h1 {
   font-family: "Nunito", sans-serif;
 }
-.background-enveloppe-blue {
-  background-image: url("/img/header.jpg");
+.background-enveloppe-opaque {
+  background-image: url("/img/header-opaque.png");
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
