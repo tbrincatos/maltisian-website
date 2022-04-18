@@ -102,6 +102,9 @@ footer a:hover {
   .greeting {
     font-size: 60px;
   }
+  .nav-alignment {
+    font-size: larger;
+  }
 
   .title {
     font-size: 80px;
