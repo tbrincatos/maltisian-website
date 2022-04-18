@@ -46,9 +46,8 @@ footer a:hover {
 }
 .greeting {
   color: #5a6275d9;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans serif;
   font-size: 40px;
-  font-weight: bold;
   padding: 8px;
   text-align: center;
 }
@@ -63,7 +62,9 @@ footer a:hover {
   background-position: center;
   background-size: cover;
 }
-
+.maltisian-accent-color {
+  color: var(--accent-color);
+}
 .nav-alignment {
   margin: 0 auto;
 }
@@ -75,6 +76,11 @@ footer a:hover {
   display: flex;
   justify-content: center;
   padding: 40px;
+}
+.shecodes-link,
+.shecodes-link:visited,
+.shecodes-link:hover {
+  color: #875bf1;
 }
 .title {
   color: var(--primary-color);
@@ -108,5 +114,12 @@ footer a:hover {
 
   .title {
     font-size: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .projects p {
+    font-size: x-large;
+    line-height: 3rem;
+    padding-top: 130px;
   }
 }
