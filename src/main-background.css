@@ -2,18 +2,131 @@ body,
 html {
   height: 100%;
 }
-.background-enveloppe-opaque {
-  background-image: url("/img/background.JPG");
-  background-repeat: no-repeat;
+.background-enveloppe-blue {
+  background-image: url("/img/header.jpg");
+  background-repeat: repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
   height: 100%;
 }
+
+
 .social-links {
   display: flex;
   justify-content: center;
 }
+
 /*.social-content {
   position: absolute;
   bottom: 10px;
 }/*
+/*            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/vico_sea_2.jpg"
+                alt="Vico Equense Sea"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Vico Equense Beach overlooking Vesuvius</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/lago_top.jpg"
+                alt="On top of Lago di Como"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>On top of Lago di Como</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/bellagio_gardens.jpg"
+                alt="Bellagio Botanical Gardens"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bellagio Botanical Gardens</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/bellagio_lago.jpg"
+                alt="Bellagio Lago"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Lake from the Bellagio Botanical Gardens</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/ravello.jpg"
+                alt="Ravello"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ravello</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/taormina.JPG"
+                alt="Taormina"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Taormina, Sicily</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/varenna.jpg"
+                alt="Varenna"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Varenna</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/capri_gardens.JPG"
+                alt="Capri Botanical Gardens"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Capri Botanical Gardens</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/malta.JPG"
+                alt="Malta"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Malta</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/vico_valley.jpg"
+                alt="Vico Equense Valley"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Vico Equense Valley</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block img-fluid"
+                src="/img/travels/lisbon.jpg"
+                alt="Lisbon"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Lisbon</h5>
+              </div>
+            </div>/*
