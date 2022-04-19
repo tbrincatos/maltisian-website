@@ -39,6 +39,11 @@ hr {
   display: block;
   margin: 0 auto;
 }
+.contact:hover,
+.contact:visited,
+.maltisian-accent-color {
+  color: var(--accent-color);
+}
 .fa-ellipsis {
   color: var(--primary-color);
 }
@@ -62,9 +67,7 @@ hr {
   background-position: center;
   background-size: cover;
 }
-.maltisian-accent-color {
-  color: var(--accent-color);
-}
+
 .nav-alignment {
   margin: 0 auto;
 }
