@@ -31,7 +31,6 @@ hr {
 }
 .background {
   background-color: var(--background-color);
-
   border-radius: 15px;
 }
 
@@ -94,6 +93,10 @@ hr {
 }
 
 @media (max-width: 600px) {
+  .social-content {
+    position: absolute;
+    bottom: 10px;
+  }
   .title {
     font-size: 55px;
   }
