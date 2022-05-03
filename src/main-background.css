@@ -7,8 +7,14 @@ h1 {
 }
 .background-enveloppe-opaque {
   background-image: url("/img/header-opaque.png");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: fit-content;
+  height: 100%;
+}
+@media (min-width: 900px) {
+  .background-enveloppe-opaque {
+    background-size: auto auto;
+    height: fit-content;
+  }
 }
