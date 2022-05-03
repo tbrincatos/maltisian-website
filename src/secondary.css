@@ -5,7 +5,13 @@
   --background-color: #b0c2d021;
   --background-border: #445f7f;
 }
+footer a:hover {
+  text-decoration: none;
+}
 
+hr {
+  border-top: 1px solid var(--accent-color);
+}
 main p {
   color: var(--background-border);
 }
@@ -13,12 +19,7 @@ main p {
   line-height: 2;
   text-align: justify;
 }
-footer a:hover {
-  text-decoration: none;
-}
-hr {
-  border-top: 1px solid var(--accent-color);
-}
+
 .active {
   font-weight: bold;
 }
@@ -51,6 +52,12 @@ hr {
   background-image: url("/img/footer.jpg");
   background-position: center;
   background-size: cover;
+}
+.footer-image-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .greeting {
