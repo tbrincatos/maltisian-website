@@ -41,6 +41,7 @@ main p {
 }
 .contact:hover,
 .contact:visited,
+.github-link:hover,
 .maltisian-accent-color {
   color: var(--accent-color);
 }
