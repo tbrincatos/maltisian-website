@@ -53,12 +53,12 @@ main p {
   background-position: center;
   background-size: cover;
 }
-.footer-image-bottom {
+/*.footer-image-bottom {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-}
+}*/
 
 .greeting {
   color: var(--background-border);
