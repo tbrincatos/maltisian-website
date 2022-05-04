@@ -118,6 +118,12 @@ main p {
   .footer-image {
     background-position: top;
   }
+  .footer-image-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
   .greeting {
     font-size: 55px;
   }
