@@ -104,7 +104,7 @@ main p {
 
 @media (max-width: 600px) {
   .social-content {
-    position: absolute;
+    position: relative;
     bottom: 10px;
   }
   .title {

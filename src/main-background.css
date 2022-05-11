@@ -12,6 +12,9 @@ h1 {
   background-position: center;
   height: 100%;
 }
+@media (max-height: 630px) {
+}
+
 @media (min-width: 900px) {
   .background-enveloppe-opaque {
     background-size: auto auto;
