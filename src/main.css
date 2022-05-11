@@ -38,10 +38,10 @@ footer a:hover {
   background-position: left;
   height: 100%;
 }
-.temp-menu {
-  padding-top: 20px;
+.rights {
+  font-size: smaller;
+  text-align: center;
 }
-
 .social-links {
   display: flex;
   justify-content: center;
@@ -50,7 +50,9 @@ footer a:hover {
   position: absolute;
   bottom: 10px;
 }
-
+.temp-menu {
+  padding-top: 20px;
+}
 @media (max-width: 400px) {
   .temp-menu {
     font-size: 0.9rem;

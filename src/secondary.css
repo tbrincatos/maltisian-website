@@ -80,7 +80,10 @@ main p {
 .nav-link:visited {
   color: var(--primary-color);
 }
-
+.rights {
+  font-size: smaller;
+  text-align: center;
+}
 .social-links {
   display: flex;
   justify-content: center;
